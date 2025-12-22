@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahra Asgari - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .resume-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .header .title {
+            font-size: 20px;
+            opacity: 0.95;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            font-size: 14px;
+        }
+        
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section-title {
+            font-size: 22px;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .summary {
+            line-height: 1.8;
+            color: #444;
+            font-size: 15px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        
+        .skill-category h4 {
+            color: #764ba2;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+        
+        .skill-category ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .skill-category li {
+            padding: 5px 0;
+            color: #555;
+            font-size: 14px;
+        }
+        
+        .skill-category li:before {
+            content: "▹ ";
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        .project {
+            margin-bottom: 25px;
+            border-left: 3px solid #667eea;
+            padding-left: 20px;
+        }
+        
+        .project h3 {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        
+        .project .tech-stack {
+            color: #764ba2;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .project ul {
+            margin-left: 20px;
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        .project li {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        
+        .experience-item {
+            margin-bottom: 20px;
+        }
+        
+        .experience-item h3 {
+            color: #333;
+            font-size: 18px;
+        }
+        
+        .experience-item .role-period {
+            color: #764ba2;
+            font-size: 14px;
+            margin: 5px 0 10px 0;
+        }
+        
+        .experience-item ul {
+            margin-left: 20px;
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        .languages {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .languages span {
+            background: #f0f0f0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            color: #555;
+            font-size: 14px;
+        }
+        
+        .download-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            transition: all 0.3s;
+        }
+        
+        .download-btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .resume-container {
+                box-shadow: none;
+                max-width: 100%;
+            }
+            .download-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <h1>ZAHRA ASGARI</h1>
+            <div class="title">AI Specialist | Data Analyst | Front-End Developer</div>
+            <div class="contact-info">
+                <span>📧 zahraasgari345@gmail.com</span>
+                <span>📱 +98 914 949 6447</span>
+                <span>💼 Remote Work</span>
+                <span>🔗 github.com/zahraaAsgari</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Professional Summary</h2>
+                <p class="summary">
+                    Aspiring AI Specialist with 2 years of front-end development experience, now transitioning into data science and machine learning. Self-taught Python programmer with strong skills in data analysis, visualization, and building interactive dashboards. Experienced in extracting business insights through KPI analysis, ROI calculations, and data-driven decision making. Proficient in creating end-to-end analytical solutions using modern Python libraries and frameworks.
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Programming Languages</h4>
+                        <ul>
+                            <li>Python (Data Analysis & ML)</li>
+                            <li>JavaScript (Front-End)</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Data Analysis & Visualization</h4>
+                        <ul>
+                            <li>Pandas, NumPy</li>
+                            <li>Matplotlib, Seaborn</li>
+                            <li>Streamlit (Dashboards)</li>
+                            <li>Jupyter Notebook</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Currently Learning</h4>
+                        <ul>
+                            <li>Scikit-learn (Machine Learning)</li>
+                            <li>PyTorch (Deep Learning)</li>
+                            <li>Advanced ML Algorithms</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Business Analytics</h4>
+                        <ul>
+                            <li>KPI Analysis & Tracking</li>
+                            <li>ROI Calculation</li>
+                            <li>Statistical Analysis</li>
+                            <li>Data-Driven Insights</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Key Projects</h2>
+                
+                <div class="project">
+                    <h3>Dubai Real Estate Analytics Dashboard</h3>
+                    <div class="tech-stack">Tech Stack: Python, Pandas, Streamlit, Seaborn, Matplotlib</div>
+                    <ul>
+                        <li>Built an interactive analytics dashboard analyzing Dubai property market data with multiple visualization layers</li>
+                        <li>Implemented KPI tracking including average rent, ROI calculations, area metrics, and total listings</li>
+                        <li>Created 7+ advanced visualizations: scatter plots, correlation heatmaps, time-series trends, and distribution analysis</li>
+                        <li>Developed location-based filtering system for dynamic data exploration</li>
+                        <li>Identified top ROI locations and rent patterns across different property types and bedroom configurations</li>
+                        <li>Applied data cleaning techniques handling missing values, date parsing, and standardization</li>
+                    </ul>
+                </div>
+                
+                <div class="project">
+                    <h3>Retail Business Intelligence Dashboard</h3>
+                    <div class="tech-stack">Tech Stack: Python, Pandas, NumPy, Matplotlib</div>
+                    <ul>
+                        <li>Analyzed retail sales data to extract critical business metrics for decision-making</li>
+                        <li>Calculated key performance indicators: Total Revenue, Total Orders, Unique Customers, AOV (Average Order Value), and ACV (Average Customer Value)</li>
+                        <li>Created comprehensive business metrics visualizations for executive reporting</li>
+                        <li>Processed and cleaned large datasets to ensure data accuracy and reliability</li>
+                        <li>Delivered actionable insights to optimize business performance and customer engagement</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Professional Experience</h2>
+                
+                <div class="experience-item">
+                    <h3>Front-End Developer</h3>
+                    <div class="role-period">Remote | 2 Years</div>
+                    <ul>
+                        <li>Developed responsive web applications using modern front-end technologies</li>
+                        <li>Created user-friendly interfaces with focus on user experience and performance</li>
+                        <li>Collaborated with teams to deliver high-quality web solutions</li>
+                        <li>Built strong foundation in programming logic and problem-solving</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Languages</h2>
+                <div class="languages">
+                    <span>🇹🇷 Turkish (Fluent)</span>
+                    <span>🇬🇧 English (Fluent)</span>
+                    <span>🇮🇷 Farsi/Persian (Native)</span>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Education & Learning</h2>
+                <div class="experience-item">
+                    <h3>Self-Taught Data Science & AI Specialist</h3>
+                    <div class="role-period">Ongoing Learning Journey</div>
+                    <ul>
+                        <li>Completed comprehensive Python programming for data analysis</li>
+                        <li>Mastered data manipulation with Pandas and NumPy</li>
+                        <li>Advanced data visualization using Matplotlib and Seaborn</li>
+                        <li>Currently pursuing Machine Learning with Scikit-learn and Deep Learning with PyTorch</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <button class="download-btn" onclick="window.print()">📥 Download PDF</button>
+</body>
+</html>
